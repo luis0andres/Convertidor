@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/temperatura"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/temperatura"
+        android:textColor="@color/letras"
+        android:text="Unidades de Temperatura" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/letras"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botont"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Celsio a Fahrentheit" />
+
+        <Button
+            android:id="@+id/fc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botont"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Fahrentheit a Celsio" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/letras"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botont"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Celsio a Kelvin" />
+
+        <Button
+            android:id="@+id/kc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/botont"
+            android:textColor="@color/letras"
+            android:text="Kelvin a Celsio" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/distancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/metros"
+        android:textColor="@color/letras"
+        android:gravity="center"
+        android:text="Unidades de Distancia" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/letras"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/botond"
+            android:textColor="@color/letras"
+            android:text="Metros a Centimetros" />
+
+        <Button
+            android:id="@+id/cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botond"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Centimetros a Metros" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botond"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Centimetros a Pulgada" />
+
+        <Button
+            android:id="@+id/pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/botond"
+            android:textColor="@color/letras"
+            android:layout_weight="1"
+            android:text="Pulgadas a Centimetros" />
+    </LinearLayout>
+
+</LinearLayout>

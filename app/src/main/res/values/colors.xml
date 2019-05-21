@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="temperatura">#E8822D</color>
+    <color name="metros">#44D5EF</color>
+    <color name="letras">#000000</color>
+    <color name="botont">#CA9512</color>
+    <color name="botond">#99E7F5</color>
+</resources>
