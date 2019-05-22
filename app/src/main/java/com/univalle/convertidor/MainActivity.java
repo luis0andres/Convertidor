@@ -10,8 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button cf,fc,ck,kc;
     Button mc,cm,cp,pc;
-    String tcf,tfc,tck,tkc;
-    String tmc,tcm,tcp,tpc;
 
 
 

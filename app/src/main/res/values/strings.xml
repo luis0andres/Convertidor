@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Convertidor</string>
+    <string name="temperatura">Unidades de Temperatura</string>
+    <string name="distancia">Unidades de Distancia</string>
+    <string name="cf">Celsio a Fahrentheit</string>
+    <string name="fc">Fahrentheit a Celsio</string>
+    <string name="ck">Celsio a Kelvin</string>
+    <string name="kc">Kelvin a Celsio</string>
+    <string name="cm">Centimetros a Metros</string>
+    <string name="mc">Metros a Centimetros</string>
+    <string name="cp">Centimetros a Pulgada</string>
+    <string name="pc">Pulgadas a Centimetros</string>
 </resources>

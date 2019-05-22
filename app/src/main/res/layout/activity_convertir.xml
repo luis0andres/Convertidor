@@ -27,7 +27,7 @@
             android:id="@+id/unidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="" />
 
         <Button
             android:id="@+id/calcular"

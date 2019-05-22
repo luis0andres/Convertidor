@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Converter</string>
+    <string name="app_name">Units Converter</string>
+    <string name="temperatura">temperature units</string>
+    <string name="distancia">Distance Units</string>
+    <string name="cf">Celsio to Fahrentheit</string>
+    <string name="fc">Fahrentheit to Celsio</string>
+    <string name="ck">Celsius to Kelvin</string>
+    <string name="kc">Kelvin to Celsius</string>
+    <string name="cm">Centimeters to Meters</string>
+    <string name="mc">Meters to Centimeters</string>
+    <string name="cp">Centimeters to Inch</string>
+    <string name="pc">Inch to centimeters</string>
 </resources>

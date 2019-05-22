@@ -31,7 +31,7 @@
             android:background="@color/botont"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Celsio a Fahrentheit" />
+            android:text="@string/cf" />
 
         <Button
             android:id="@+id/fc"
@@ -40,7 +40,7 @@
             android:background="@color/botont"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Fahrentheit a Celsio" />
+            android:text="@string/fc" />
     </LinearLayout>
 
     <LinearLayout
@@ -56,7 +56,7 @@
             android:background="@color/botont"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Celsio a Kelvin" />
+            android:text="@string/ck" />
 
         <Button
             android:id="@+id/kc"
@@ -65,7 +65,7 @@
             android:layout_weight="1"
             android:background="@color/botont"
             android:textColor="@color/letras"
-            android:text="Kelvin a Celsio" />
+            android:text="@string/kc" />
     </LinearLayout>
 
     <TextView
@@ -76,7 +76,7 @@
         android:background="@color/metros"
         android:textColor="@color/letras"
         android:gravity="center"
-        android:text="Unidades de Distancia" />
+        android:text="@string/distancia" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -91,7 +91,7 @@
             android:layout_weight="1"
             android:background="@color/botond"
             android:textColor="@color/letras"
-            android:text="Metros a Centimetros" />
+            android:text="@string/mc" />
 
         <Button
             android:id="@+id/cm"
@@ -100,7 +100,7 @@
             android:background="@color/botond"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Centimetros a Metros" />
+            android:text="@string/cm" />
     </LinearLayout>
 
     <LinearLayout
@@ -115,7 +115,7 @@
             android:background="@color/botond"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Centimetros a Pulgada" />
+            android:text="@string/cp" />
 
         <Button
             android:id="@+id/pc"
@@ -124,7 +124,7 @@
             android:background="@color/botond"
             android:textColor="@color/letras"
             android:layout_weight="1"
-            android:text="Pulgadas a Centimetros" />
+            android:text="@string/pc" />
     </LinearLayout>
 
 </LinearLayout>
